@@ -15,9 +15,10 @@ imbalance. Reproducible with one command; CI re-proves the claim on every push.
 ecosystem, proved twice, disclosed responsibly.
 
 **[Aura (private, commercial)](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
-— a photoreal 3D surgical-preview and clinic platform shipped solo: a **photoreal 3D head from a
-15-second phone video** (3D Gaussian Splatting) with millimetre-anchored surgical before/after
-previews — fidelity measured on held-out frames, payments mutation-tested, KVKK/HIPAA-aligned.
+— a photoreal 3D surgical-preview and clinic platform shipped solo: a **photoreal 3D head built
+from a ~15-second phone capture video** (3D Gaussian Splatting, offline GPU reconstruction) with
+millimetre-anchored surgical before/after previews, plus an instant in-browser 2.5D preview
+(~0.4 s) — fidelity measured on held-out frames, payments mutation-tested, KVKK/HIPAA-aligned.
 Source private; the case study describes the engineering, not the IP.
 
 **[Full portfolio & case studies →](https://github.com/hilberspace-dev/portfolio)** including a
