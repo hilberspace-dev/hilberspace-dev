@@ -14,6 +14,11 @@ imbalance. Reproducible with one command; CI re-proves the claim on every push.
 — a genuine (Low-severity) defect found in one of the most heavily audited contracts in the
 ecosystem, proved twice, disclosed responsibly.
 
+**[Aura (private, commercial)](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-private-ai-clinic-platform)**
+— a complete AI-assisted clinic platform shipped solo: 3D face reconstruction with graceful
+fallbacks, LLM orchestration, mutation-tested payment paths, KVKK/HIPAA-aligned data handling.
+Source private; the case study describes the engineering, not the IP.
+
 **[Full portfolio & case studies →](https://github.com/hilberspace-dev/portfolio)** including a
 disciplined NO-GO audit of a live protocol holding ~$16.7M, and the written engineering standard
 behind all of it.
