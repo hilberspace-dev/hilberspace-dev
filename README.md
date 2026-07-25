@@ -1,34 +1,56 @@
-# atilgandev — Backend Engineer
+# atilgandev — Backend Engineer for Payment & Data-Integrity Systems
 
-**Go · PostgreSQL · payment systems · high-integrity software** — with full-stack product
-delivery, applied computer vision and smart-contract security as additional depth. Every claim in
-my work links to something you can run or verify.
+**Go · PostgreSQL · reconciliation · high-integrity software**
+
+I build backend systems for product companies and software agencies where money and records must
+remain correct, explainable and recoverable.
+
+> **Available for fixed-scope B2B engagements with product companies and software agencies.**
+>
+> Send the problem, current stack, expected deliverable and timeline → [email me](mailto:hilberspace@gmail.com).
+
+Async-first collaboration with professional written English for specifications, tickets,
+documentation and code review.
+
+## Services
+
+- **Payment reconciliation and financial-data systems**
+- **Go/PostgreSQL backend reliability**
+- **Scoped backend subcontract delivery for software agencies** with tests, evidence, documentation
+  and handover
 
 ## Featured work
 
-**[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — deterministic payment
-reconciliation engine (Go + PostgreSQL). The public benchmark reconciles ~50K transactions across
-three sources with 7 injected discrepancy types: 7/7 detected, 0 false matches validated against
-generator ground truth. CI re-runs the proof on every push.
+### [ReconPilot](https://github.com/hilberspace-dev/reconpilot)
 
-**[Aura (private, commercial)](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
-— a photoreal 3D surgical-preview and clinic platform shipped solo: a photoreal 3D head built from
-a ~15-second phone capture video (3D Gaussian Splatting, offline GPU reconstruction), an instant
-in-browser 2.5D preview (~0.4 s), fidelity measured on held-out frames, payments mutation-tested,
-KVKK/HIPAA-aligned. Source private; the case study covers scope and non-sensitive measurements only.
+Deterministic payment reconciliation engine in Go/PostgreSQL. Its public seeded benchmark checks
+~50K synthetic transactions across PSP, bank and marketplace records: **7/7 injected discrepancy
+types detected, 0 false matches and 0 intended pairs/groups missed**. CI re-runs the tests,
+ground-truth benchmark, architecture checks and Compose smoke test on every push.
 
-**[ERC-4337 EntryPoint v0.8 — security review](https://github.com/hilberspace-dev/portfolio/tree/main/projects/02-erc4337-entrypoint-review)**
-— a genuine (Low-severity) defect found in one of the most heavily audited contracts in the
-ecosystem, reproduced twice, disclosed responsibly.
+[![ReconPilot CI](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml)
 
-**[Full portfolio & case studies →](https://github.com/hilberspace-dev/portfolio)** including a
-disciplined NO-GO audit of a live protocol holding ~$16.7M, and the written engineering standard
-behind all of it. Türkçe özet: [README.tr.md](https://github.com/hilberspace-dev/portfolio/blob/main/README.tr.md)
+### [Aura](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform) *(private, commercial)*
 
-## Availability
+Sole technical owner for a clinic-ready product spanning full-stack delivery and GPU/ML workloads,
+with privacy controls and an operational handover package. The case study documents responsibilities
+and non-sensitive evidence; source and client IP remain private.
 
-Open to **contract and subcontract work** — independent technical delivery behind an agency or a
-lead developer. Professional written English for specifications, tickets and code review; spoken
-communication primarily in Turkish.
+### [Security research](https://github.com/hilberspace-dev/portfolio#security-research)
 
-✉️ [Email](mailto:hilberspace@gmail.com)
+Reproducible protocol review work: a Low-severity ERC-4337 correctness defect reproduced in two
+environments, plus a live-protocol audit that correctly ended in a documented NO-GO.
+
+## How I deliver
+
+Scope and acceptance criteria → written technical plan → incremental implementation → tests and
+reproducible verification → documentation and handover.
+
+Every claim links to something a reviewer can inspect or run. See the
+[full portfolio and case studies](https://github.com/hilberspace-dev/portfolio) or the
+[Türkçe özet](https://github.com/hilberspace-dev/portfolio/blob/main/README.tr.md).
+
+## Contact
+
+For fixed-scope B2B work, [email me](mailto:hilberspace@gmail.com) with the problem, current stack,
+expected deliverable, timeline and any repository or access constraints.
