@@ -15,7 +15,8 @@ gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
 > Problemi, mevcut sistemi ve beklediğiniz sonucu yazın; kapsamı, süreyi ve teslim edilecekleri
 > yazılı olarak geri göndereyim. İlk görüşme ve ön değerlendirme ücretsizdir.
 >
-> **[E-posta gönderin / Email me →](mailto:hilberspace@gmail.com)**
+> **[E-posta / Email →](mailto:hilberspace@gmail.com)** ·
+> **[WhatsApp →](https://wa.me/905431064025)** · **[+90 543 106 40 25](tel:+905431064025)**
 
 📍 Türkiye · [**🇹🇷 Türkçe portföy**](https://github.com/hilberspace-dev/portfolio/blob/main/README.tr.md) ·
 [English portfolio](https://github.com/hilberspace-dev/portfolio)
@@ -72,8 +73,11 @@ API entegrasyonları · otomatik test ve CI · Docker · observability
 
 ## İletişim
 
-Sabit kapsamlı bir iş için [e-posta gönderin](mailto:hilberspace@gmail.com): problem ve bugün nasıl
-idare edildiği, mevcut sistem, beklenen teslimat, hedef zaman planı ve erişim kısıtları.
+**Telefon / WhatsApp:** [+90 543 106 40 25](tel:+905431064025) ·
+**E-posta:** [hilberspace@gmail.com](mailto:hilberspace@gmail.com)
+
+Sabit kapsamlı bir iş için şunları paylaşın: problem ve bugün nasıl idare edildiği, mevcut sistem,
+beklenen teslimat, hedef zaman planı ve erişim kısıtları.
 
 Projeler Türkçe yürütülür. Şartname, dokümantasyon ve kod incelemesi Türkçe veya İngilizce olarak,
 ekibinizin tercihine göre hazırlanır.
