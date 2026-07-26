@@ -26,11 +26,11 @@ gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
 ## Taklit edilmesi zor üç şey
 
 - **Bir ürünün tamamını tek başıma taşıdım.** Ödeme alan, kişisel veri işleyen ve GPU/ML workload'u
-  koşan canlı, multi-tenant ticari bir SaaS'ın tek teknik sahibiydim: mimari, API, web, release
+  çalıştıran canlı, multi-tenant ticari bir SaaS'ın tek teknik sahibiydim: mimari, API, web, release
   süreci, KVKK dokümantasyonu ve handover paketi.
-- **Başkalarının zaten incelediği para koduna hata bulurum.** Yoğun biçimde denetlenmiş bir işlem
+- **Başkalarının zaten incelediği para kodunda hata bulurum.** Yoğun biçimde denetlenmiş bir işlem
   doğrulama bileşeninde deterministik bir doğruluk kusurunu iki bağımsız ortamda tekrar ürettim.
-- **Kanıt "dur" diyorsa dururum.** ~16,7M $'lık bir inceleme, kendi kanıtım en güçlü hipotezimi
+- **Kanıt "dur" diyorsa dururum.** Yaklaşık 16,7 milyon dolarlık bir inceleme, kendi kanıtım en güçlü hipotezimi
   çürüttüğü için yazılı bir NO-GO ile bitti. Sayılar umduğunuz sonucu desteklemiyorsa, bunu ilk
   benden duyarsınız.
 
@@ -40,16 +40,16 @@ Bir referans listesi okuyup bana güvenmenizi beklemiyorum; ilk adımı ucuz ve 
 yapıyorum.
 
 - **Ücretli ön analiz** — birkaç günlük, sabit ücretli, kendi başına duran bir iş. Çıktısı yazılı
-  teşhis raporu; devam etmeseniz de sizde kalır.
+  bir teşhis raporudur; devam etmeseniz de sizde kalır.
 - **Milestone bazlı ödeme** — peşin toplu ödeme yok.
 - **İlk milestone'da yazılı kabul kriteri** — karşılamazsam o milestone'u faturalamam.
-- **Ücretsiz teşhis** — anonimleştirilmiş bir mutabakat ekstresi gönderin, sessiz kayıpların nerede
+- **Ücretsiz teşhis** — anonimleştirilmiş bir mutabakat ekstresi gönderin; sessiz kayıpların nerede
   olduğunu yazılı olarak geri göndereyim. Karşılığında taahhüt beklemiyorum.
 
 ## Nasıl çalıştığım — yazılı olarak
 
-İki metodoloji belgesi herkese açık. Pazarlama sayfası değiller; fiilen kendime uyguladığım
-standartlar ve doğru kişi olup olmadığıma karar vermenin en hızlı yolu.
+İki metodoloji belgesi herkese açık. Pazarlama sayfası değil; fiilen kendime uyguladığım
+standartlar ve doğru kişi olup olmadığıma karar vermenin en hızlı yoludur.
 
 - [**Teslim ve Quality Gate Metodolojisi**](https://github.com/hilberspace-dev/portfolio/blob/main/DELIVERY-METHODOLOGY.tr.md)
   — bir değişikliğin production'a nasıl çıktığı
@@ -68,14 +68,14 @@ KVKK kontrolleri, GPU/ML workload'u, release süreci ve handover paketi. Fikrî 
 hazırlandığı için kaynak kod kapalı.
 
 **[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
-mutabakat motoru. Açık, seed'li benchmark PSP, banka ve pazaryeri kayıtları arasında ~50 bin işlemi
-kontrol ediyor: **7/7 enjekte edilmiş uyuşmazlık tipi tespit, 0 yanlış eşleşme, 0 kaçırılmış
-eşleşme.** Sayıları kendiniz koşturabilirsiniz.
+mutabakat motoru. Açık, seed'li benchmark; PSP, banka ve pazaryeri kayıtları arasında ~50 bin işlemi
+kontrol ediyor: **enjekte edilen 7 uyuşmazlık tipinin tamamı tespit edildi; 0 yanlış eşleşme, 0 kaçırılmış
+eşleşme.** Sayıları kendiniz çalıştırabilirsiniz.
 
 [![ReconPilot CI](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml)
 
 **[Bağımsız güvenlik incelemeleri](https://github.com/hilberspace-dev/portfolio#3-independent-security-reviews)**
-— Para taşıyan kodda, kendi kurallarına karşı iki bağımsız inceleme. Kanıtlanamayan bulgu
+— Para taşıyan kodda, sistemin kendi kurallarına göre yapılmış iki bağımsız inceleme. Kanıtlanamayan bulgu
 raporlanmaz.
 
 ## Teknik kapsam
