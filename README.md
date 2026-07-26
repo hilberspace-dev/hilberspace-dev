@@ -1,56 +1,78 @@
-# atilgandev — Backend Engineer for Payment & Data-Integrity Systems
+# atilgandev — backend systems where money and records have to stay correct
 
-**Go · PostgreSQL · reconciliation · high-integrity software**
+**Mutabakat · ödeme ve banka entegrasyonları · KVKK uyumlu veri işleme · devralınan sistemlerin
+toparlanması**
+**Reconciliation · payment and bank integrations · privacy-compliant data handling · rescuing
+inherited systems**
 
-I build backend systems for product companies and software agencies where money and records must
-remain correct, explainable and recoverable.
+Ödemenin, faturanın ve kaydın tutması gereken yerlerde backend geliştiriyorum. Çalıştığım işlerin
+ortak paydası şu: bir yerde para veya kayıt kayboluyor, kimse tam olarak nerede olduğunu
+gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
 
-> **Available for fixed-scope B2B engagements with product companies and software agencies.**
+> ### Sabit kapsamlı iş alıyorum · Available for fixed-scope work
 >
-> Send the problem, current stack, expected deliverable and timeline → [email me](mailto:hilberspace@gmail.com).
+> Problemi, mevcut sistemi ve beklediğiniz sonucu yazın; kapsamı, süreyi ve teslim edilecekleri
+> yazılı olarak geri göndereyim. İlk görüşme ve ön değerlendirme ücretsizdir.
+>
+> **[E-posta gönderin / Email me →](mailto:hilberspace@gmail.com)**
 
-Async-first collaboration with professional written English for specifications, tickets,
-documentation and code review.
+📍 Türkiye · [**🇹🇷 Türkçe portföy**](https://github.com/hilberspace-dev/portfolio/blob/main/README.tr.md) ·
+[English portfolio](https://github.com/hilberspace-dev/portfolio)
 
-## Services
+---
 
-- **Payment reconciliation and financial-data systems**
-- **Go/PostgreSQL backend reliability**
-- **Scoped backend subcontract delivery for software agencies** with tests, evidence, documentation
-  and handover
+## Taklit edilmesi zor üç şey
 
-## Featured work
+- **Bir ürünün tamamını tek başıma taşıdım.** Ödeme alan, kişisel veri işleyen ve GPU/ML workload'u
+  koşan canlı, multi-tenant ticari bir SaaS'ın tek teknik sahibiydim: mimari, API, web, release
+  süreci, KVKK dokümantasyonu ve handover paketi.
+- **Başkalarının zaten incelediği para koduna hata bulurum.** Yoğun biçimde denetlenmiş bir işlem
+  doğrulama bileşeninde deterministik bir doğruluk kusurunu iki bağımsız ortamda tekrar ürettim.
+- **Kanıt "dur" diyorsa dururum.** ~16,7M $'lık bir inceleme, kendi kanıtım en güçlü hipotezimi
+  çürüttüğü için yazılı bir NO-GO ile bitti. Sayılar umduğunuz sonucu desteklemiyorsa, bunu ilk
+  benden duyarsınız.
 
-### [ReconPilot](https://github.com/hilberspace-dev/reconpilot)
+## Nasıl çalıştığım — yazılı olarak
 
-Deterministic payment reconciliation engine in Go/PostgreSQL. Its public seeded benchmark checks
-~50K synthetic transactions across PSP, bank and marketplace records: **7/7 injected discrepancy
-types detected, 0 false matches and 0 intended pairs/groups missed**. CI re-runs the tests,
-ground-truth benchmark, architecture checks and Compose smoke test on every push.
+İki metodoloji belgesi herkese açık. Pazarlama sayfası değiller; fiilen kendime uyguladığım
+standartlar ve doğru kişi olup olmadığıma karar vermenin en hızlı yolu.
+
+- [**Teslim ve Quality Gate Metodolojisi**](https://github.com/hilberspace-dev/portfolio/blob/main/DELIVERY-METHODOLOGY.tr.md)
+  — bir değişikliğin production'a nasıl çıktığı
+  ([English](https://github.com/hilberspace-dev/portfolio/blob/main/DELIVERY-METHODOLOGY.md))
+- [**Güvenlik İncelemesi ve PoC Metodolojisi**](https://github.com/hilberspace-dev/portfolio/blob/main/METHODOLOGY.tr.md)
+  — bir defect'in nasıl kanıtlandığı
+  ([English](https://github.com/hilberspace-dev/portfolio/blob/main/METHODOLOGY.md))
+
+İkisinin de dayandığı ilke aynı: **iddiadan önce kanıt.**
+
+## Referans işler
+
+**[Aura](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
+*(özel, ticari)* — Multi-tenant klinik platformunda tek teknik sahiplik: ödeme akışı, KVKK
+kontrolleri, GPU/ML workload'u, release süreci ve handover paketi. Kaynak kod ve müşteriye özgü IP
+gizlidir.
+
+**[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
+mutabakat motoru. Açık, seed'li benchmark PSP, banka ve pazaryeri kayıtları arasında ~50 bin işlemi
+kontrol ediyor: **7/7 enjekte edilmiş uyuşmazlık tipi tespit, 0 yanlış eşleşme, 0 kaçırılmış
+eşleşme.** Sayıları kendiniz koşturabilirsiniz.
 
 [![ReconPilot CI](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml)
 
-### [Aura](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform) *(private, commercial)*
+**[Bağımsız güvenlik incelemeleri](https://github.com/hilberspace-dev/portfolio#3-independent-security-reviews)**
+— Para taşıyan kodda, kendi kurallarına karşı iki bağımsız inceleme. Kanıtlanamayan bulgu
+raporlanmaz.
 
-Sole technical owner for a clinic-ready product spanning full-stack delivery and GPU/ML workloads,
-with privacy controls and an operational handover package. The case study documents responsibilities
-and non-sensitive evidence; source and client IP remain private.
+## Teknik kapsam
 
-### [Security research](https://github.com/hilberspace-dev/portfolio#security-research)
+Go · PostgreSQL · Node.js / TypeScript · backend mimarisi · ödeme ve işlem sistemleri · mutabakat ·
+API entegrasyonları · otomatik test ve CI · Docker · observability
 
-Reproducible protocol review work: a Low-severity ERC-4337 correctness defect reproduced in two
-environments, plus a live-protocol audit that correctly ended in a documented NO-GO.
+## İletişim
 
-## How I deliver
+Sabit kapsamlı bir iş için [e-posta gönderin](mailto:hilberspace@gmail.com): problem ve bugün nasıl
+idare edildiği, mevcut sistem, beklenen teslimat, hedef zaman planı ve erişim kısıtları.
 
-Scope and acceptance criteria → written technical plan → incremental implementation → tests and
-reproducible verification → documentation and handover.
-
-Every claim links to something a reviewer can inspect or run. See the
-[full portfolio and case studies](https://github.com/hilberspace-dev/portfolio) or the
-[Türkçe özet](https://github.com/hilberspace-dev/portfolio/blob/main/README.tr.md).
-
-## Contact
-
-For fixed-scope B2B work, [email me](mailto:hilberspace@gmail.com) with the problem, current stack,
-expected deliverable, timeline and any repository or access constraints.
+Projeler Türkçe yürütülür. Şartname, dokümantasyon ve kod incelemesi Türkçe veya İngilizce olarak,
+ekibinizin tercihine göre hazırlanır.
