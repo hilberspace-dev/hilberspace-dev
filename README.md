@@ -25,14 +25,14 @@ gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
 
 ## Taklit edilmesi zor üç şey
 
-- **Bir ürünün tamamını tek başıma taşıdım.** Ödeme alan, kişisel veri işleyen ve GPU/ML workload'u
-  çalıştıran canlı, multi-tenant ticari bir SaaS'ın tek teknik sahibiydim: mimari, API, web, release
-  süreci, KVKK dokümantasyonu ve handover paketi.
+- **Bir ürünün tamamını tek başıma taşıdım.** Canlı, multi-tenant ticari bir SaaS'ın tek teknik
+  sahibiydim; ürün ödeme alıyor, kişisel veri işliyor ve GPU/ML workload'u çalıştırıyordu. Mimari,
+  API, web, release süreci, KVKK dokümantasyonu ve handover paketi bendeydi.
 - **Başkalarının zaten incelediği para kodunda hata bulurum.** Yoğun biçimde denetlenmiş bir işlem
   doğrulama bileşeninde deterministik bir doğruluk kusurunu iki bağımsız ortamda tekrar ürettim.
-- **Kanıt "dur" diyorsa dururum.** Yaklaşık 16,7 milyon dolarlık bir inceleme, kendi kanıtım en güçlü hipotezimi
-  çürüttüğü için yazılı bir NO-GO ile bitti. Sayılar umduğunuz sonucu desteklemiyorsa, bunu ilk
-  benden duyarsınız.
+- **Kanıt "dur" diyorsa dururum.** Yaklaşık 16,7 milyon dolarlık bir incelemede kendi kanıtım en
+  güçlü hipotezimi çürüttü; çalışmayı yazılı bir NO-GO ile bitirdim. Sayılar umduğunuz sonucu
+  desteklemiyorsa bunu ilk benden duyarsınız.
 
 ## Riski küçük tutarak başlıyoruz
 
@@ -48,8 +48,8 @@ yapıyorum.
 
 ## Nasıl çalıştığım — yazılı olarak
 
-İki metodoloji belgesi herkese açık. Pazarlama sayfası değil; fiilen kendime uyguladığım
-standartlar ve doğru kişi olup olmadığıma karar vermenin en hızlı yoludur.
+İki metodoloji belgesi herkese açık. Bunlar pazarlama sayfası değil; fiilen kendime uyguladığım
+standartlar. Doğru kişi olup olmadığıma karar vermenin de en hızlı yolu.
 
 - [**Teslim ve Quality Gate Metodolojisi**](https://github.com/hilberspace-dev/portfolio/blob/main/DELIVERY-METHODOLOGY.tr.md)
   — bir değişikliğin production'a nasıl çıktığı
@@ -68,15 +68,15 @@ KVKK kontrolleri, GPU/ML workload'u, release süreci ve handover paketi. Fikrî 
 hazırlandığı için kaynak kod kapalı.
 
 **[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
-mutabakat motoru. Açık, seed'li benchmark; PSP, banka ve pazaryeri kayıtları arasında ~50 bin işlemi
-kontrol ediyor: **enjekte edilen 7 uyuşmazlık tipinin tamamı tespit edildi; 0 yanlış eşleşme, 0 kaçırılmış
-eşleşme.** Sayıları kendiniz çalıştırabilirsiniz.
+mutabakat motoru. Açık ve seed'li benchmark, PSP, banka ve pazaryeri kayıtları arasında yaklaşık
+50 bin işlemi kontrol ediyor: **enjekte edilen 7 uyuşmazlık tipinin tamamı tespit edildi, 0 yanlış
+eşleşme, 0 kaçırılmış eşleşme.** Sayıları kendiniz çalıştırabilirsiniz.
 
 [![ReconPilot CI](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/hilberspace-dev/reconpilot/actions/workflows/ci.yml)
 
 **[Bağımsız güvenlik incelemeleri](https://github.com/hilberspace-dev/portfolio#3-independent-security-reviews)**
-— Para taşıyan kodda, sistemin kendi kurallarına göre yapılmış iki bağımsız inceleme. Kanıtlanamayan bulgu
-raporlanmaz.
+— Para taşıyan kodu, sistemin kendi kurallarına göre inceleyen iki bağımsız çalışma.
+Kanıtlanamayan bulgu raporlanmaz.
 
 ## Teknik kapsam
 
