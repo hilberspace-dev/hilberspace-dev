@@ -63,9 +63,9 @@ standartlar ve doğru kişi olup olmadığıma karar vermenin en hızlı yolu.
 ## Referans işler
 
 **[Aura](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
-*(özel, ticari)* — Multi-tenant klinik platformunda tek teknik sahiplik: ödeme akışı, KVKK
-kontrolleri, GPU/ML workload'u, release süreci ve handover paketi. Kaynak kod ve müşteriye özgü IP
-gizlidir.
+*(özel, ticari — kendi ürünüm)* — Multi-tenant klinik platformunu tek başıma yazdım: ödeme akışı,
+KVKK kontrolleri, GPU/ML workload'u, release süreci ve handover paketi. Fikrî mülkiyet devre
+hazırlandığı için kaynak kod kapalı.
 
 **[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
 mutabakat motoru. Açık, seed'li benchmark PSP, banka ve pazaryeri kayıtları arasında ~50 bin işlemi
