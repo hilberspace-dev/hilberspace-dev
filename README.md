@@ -34,6 +34,18 @@ gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
   çürüttüğü için yazılı bir NO-GO ile bitti. Sayılar umduğunuz sonucu desteklemiyorsa, bunu ilk
   benden duyarsınız.
 
+## Riski küçük tutarak başlıyoruz
+
+Bir referans listesi okuyup bana güvenmenizi beklemiyorum; ilk adımı ucuz ve geri dönülebilir
+yapıyorum.
+
+- **Ücretli ön analiz** — birkaç günlük, sabit ücretli, kendi başına duran bir iş. Çıktısı yazılı
+  teşhis raporu; devam etmeseniz de sizde kalır.
+- **Milestone bazlı ödeme** — peşin toplu ödeme yok.
+- **İlk milestone'da yazılı kabul kriteri** — karşılamazsam o milestone'u faturalamam.
+- **Ücretsiz teşhis** — anonimleştirilmiş bir mutabakat ekstresi gönderin, sessiz kayıpların nerede
+  olduğunu yazılı olarak geri göndereyim. Karşılığında taahhüt beklemiyorum.
+
 ## Nasıl çalıştığım — yazılı olarak
 
 İki metodoloji belgesi herkese açık. Pazarlama sayfası değiller; fiilen kendime uyguladığım
