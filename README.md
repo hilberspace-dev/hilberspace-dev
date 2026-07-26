@@ -2,8 +2,9 @@
 
 **Mutabakat · ödeme ve banka entegrasyonları · KVKK uyumlu veri işleme · devralınan sistemlerin
 toparlanması**
-**Reconciliation · payment and bank integrations · privacy-compliant data handling · rescuing
-inherited systems**
+
+*Reconciliation · payment and bank integrations · privacy-compliant data handling · rescuing
+inherited systems*
 
 Ödemenin, faturanın ve kaydın tutması gereken yerlerde backend geliştiriyorum. Çalıştığım işlerin
 ortak paydası şu: bir yerde para veya kayıt kayboluyor, kimse tam olarak nerede olduğunu
