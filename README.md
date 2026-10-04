@@ -25,9 +25,10 @@ gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
 
 ## Taklit edilmesi zor üç şey
 
-- **Bir ürünün tamamını tek başıma taşıdım.** Canlı, multi-tenant ticari bir SaaS'ın tek teknik
-  sahibiydim; ürün ödeme alıyor, kişisel veri işliyor ve GPU/ML workload'u çalıştırıyordu. Mimari,
-  API, web, release süreci, KVKK dokümantasyonu ve handover paketi bendeydi.
+- **Bir ürünün tamamını araştırmadan çalışan prototipe taşıdım.** Multi-tenant bir klinik platformunun
+  tek teknik sahibiyim; ödeme akışı, kişisel veri işleme ve GPU/ML iş yükü için tasarlandı, henüz
+  kullanıcısı ve geliri yok. Tasarım ve yönetim bende; kodun çoğunu yapay zekâ kodlama ajanları benim
+  yönetimimde yazar. Mimari, API, web, release süreci ve KVKK dokümantasyonu bendedir.
 - **Başkalarının zaten incelediği para kodunda hata bulurum.** Yoğun biçimde denetlenmiş bir işlem
   doğrulama bileşeninde deterministik bir doğruluk kusurunu iki bağımsız ortamda tekrar ürettim.
 - **Kanıt "dur" diyorsa dururum.** Yaklaşık 16,7 milyon dolarlık bir incelemede kendi kanıtım en
@@ -63,9 +64,10 @@ standartlar. Doğru kişi olup olmadığıma karar vermenin de en hızlı yolu.
 ## Referans işler
 
 **[Aura](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
-*(özel, ticari — kendi ürünüm)* — Multi-tenant klinik platformunu tek başıma yazdım: ödeme akışı,
-KVKK kontrolleri, GPU/ML workload'u, release süreci ve handover paketi. Fikrî mülkiyet devre
-hazırlandığı için kaynak kod kapalı.
+*(kendi projem; çalışan prototip, kullanıcı ve gelir yok)* — Multi-tenant klinik platformu: ödeme
+akışı, KVKK kontrolleri, GPU/ML iş yükü, release süreci. Tasarım ve yönetim bende; kodun çoğunu yapay
+zekâ kodlama ajanları yazar ve her birleştirme bağımsız bir inceleme turundan geçer. Fikrî mülkiyet
+çalışması sürdüğü için kaynak kod kapalı.
 
 **[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
 mutabakat motoru. Açık ve seed'li benchmark, PSP, banka ve pazaryeri kayıtları arasında yaklaşık
