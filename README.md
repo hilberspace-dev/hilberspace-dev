@@ -69,6 +69,11 @@ akışı, KVKK kontrolleri, GPU/ML iş yükü, release süreci. Tasarım ve yön
 zekâ kodlama ajanları yazar ve birleştirmelerin yaklaşık yüzde 80-90'ı bağımsız bir inceleme turundan geçer (4 Ekim 2026 sayımı). Fikrî mülkiyet
 çalışması sürdüğü için kaynak kod kapalı.
 
+**[evidence-admission](https://github.com/hilberspace-dev/evidence-admission)** — Yapay zekâ kodlama ajanlarıyla yürütülen
+hesaplamalı araştırma için kanıt-kabul katmanı: rapordaki işaretli rakamı onu üreten koşum dosyasına çözen, korumalı dala
+doğrudan itmeyi reddeden ve çalışma-zamanı commit'inden prob beyanı isteyen üç denetleyici. MIT, bağımlılıksız, 70 test;
+tarayıcıda canlı demo için README'deki Codespaces rozeti (`npm run demo`).
+
 **[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
 mutabakat motoru. Açık ve seed'li benchmark, PSP, banka ve pazaryeri kayıtları arasında yaklaşık
 50 bin işlemi kontrol ediyor: **enjekte edilen 7 uyuşmazlık tipinin tamamı tespit edildi, 0 yanlış
