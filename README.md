@@ -63,7 +63,7 @@ standartlar. Doğru kişi olup olmadığıma karar vermenin de en hızlı yolu.
 
 ## Referans işler
 
-**[Aura](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
+**[AURA](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
 *(kendi projem; çalışan prototip, kullanıcı ve gelir yok)* — Multi-tenant klinik platformu: ödeme
 akışı, KVKK kontrolleri, GPU/ML iş yükü, release süreci. Tasarım ve yönetim bende; kodun çoğunu yapay
 zekâ kodlama ajanları yazar ve birleştirmelerin yaklaşık yüzde 80-90'ı bağımsız bir inceleme turundan geçer (4 Ekim 2026 sayımı). Fikrî mülkiyet
