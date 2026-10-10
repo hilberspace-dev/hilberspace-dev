@@ -23,12 +23,11 @@ gösteremiyor ve elle kapatılan her ay hem maliyet hem risk üretiyor.
 
 ---
 
-## Taklit edilmesi zor üç şey
+## Seçilmiş çalışmalar
 
-- **Bir ürünün tamamını araştırmadan çalışan prototipe taşıdım.** Multi-tenant bir klinik platformunun
-  tek teknik sahibiyim; ödeme akışı, kişisel veri işleme ve GPU/ML iş yükü için tasarlandı, henüz
-  kullanıcısı ve geliri yok. Tasarım ve yönetim bende; kodun çoğunu yapay zekâ kodlama ajanları benim
-  yönetimimde yazar. Mimari, API, web, release süreci ve KVKK dokümantasyonu bendedir.
+- **AURA araştırma prototipinin teknik gelişimini yönetiyorum.** Çok kiracılı klinik platformu;
+  ödeme, kişisel veri işleme ve GPU/ML iş yüklerini kapsıyor. Mimari kararlar, API, web uygulaması,
+  sürüm süreci ve KVKK dokümantasyonundan sorumluyum. Henüz kullanıcısı ve geliri yok.
 - **Başkalarının zaten incelediği para kodunda hata bulurum.** Yoğun biçimde denetlenmiş bir işlem
   doğrulama bileşeninde deterministik bir doğruluk kusurunu iki bağımsız ortamda tekrar ürettim.
 - **Kanıt "dur" diyorsa dururum.** Yaklaşık 16,7 milyon dolarlık bir incelemede kendi kanıtım en
@@ -49,8 +48,7 @@ yapıyorum.
 
 ## Nasıl çalıştığım — yazılı olarak
 
-İki metodoloji belgesi herkese açık. Bunlar pazarlama sayfası değil; fiilen kendime uyguladığım
-standartlar. Doğru kişi olup olmadığıma karar vermenin de en hızlı yolu.
+Test, inceleme ve sürüm süreçlerini açıklayan iki metodoloji belgesi herkese açık.
 
 - [**Teslim ve Quality Gate Metodolojisi**](https://github.com/hilberspace-dev/portfolio/blob/main/DELIVERY-METHODOLOGY.tr.md)
   — bir değişikliğin production'a nasıl çıktığı
@@ -65,14 +63,9 @@ standartlar. Doğru kişi olup olmadığıma karar vermenin de en hızlı yolu.
 
 **[AURA](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform)**
 *(kendi projem; çalışan prototip, kullanıcı ve gelir yok)* — Multi-tenant klinik platformu: ödeme
-akışı, KVKK kontrolleri, GPU/ML iş yükü, release süreci. Tasarım ve yönetim bende; kodun çoğunu yapay
-zekâ kodlama ajanları yazar ve birleştirmelerin yaklaşık yüzde 80-90'ı bağımsız bir inceleme turundan geçer (4 Ekim 2026 sayımı). Fikrî mülkiyet
-çalışması sürdüğü için kaynak kod kapalı.
-
-**[evidence-admission](https://github.com/hilberspace-dev/evidence-admission)** — Yapay zekâ kodlama ajanlarıyla yürütülen
-hesaplamalı araştırma için kanıt-kabul katmanı: rapordaki işaretli rakamı onu üreten koşum dosyasına çözen, korumalı dala
-doğrudan itmeyi reddeden ve çalışma-zamanı commit'inden prob beyanı isteyen üç denetleyici. MIT, bağımlılıksız, 70 test;
-tarayıcıda canlı demo için README'deki Codespaces rozeti (`npm run demo`).
+akışı, KVKK kontrolleri, GPU/ML iş yükü ve sürüm süreci. Teknik tasarım ve inceleme bende.
+4 Ekim 2026 sayımına göre birleştirilen PR'ların yaklaşık %80–90'ında bağımsız inceleme kaydı var.
+Fikrî mülkiyet çalışması sürdüğü için kaynak kod kapalı.
 
 **[ReconPilot](https://github.com/hilberspace-dev/reconpilot)** — Go/PostgreSQL deterministik ödeme
 mutabakat motoru. Açık ve seed'li benchmark, PSP, banka ve pazaryeri kayıtları arasında yaklaşık
