@@ -13,7 +13,7 @@ yaşıyorum, Türkçe ve İngilizce çalışıyorum.
   eşleştiren bir Go/PostgreSQL uygulaması; ana projem. Kaynak kodu ve testleri açık, depo Codespaces'te
   benchmark çalışır hâlde açılıyor. Sentetik benchmark'ın yanında kamuya açık beş gerçek veri
   setinde de çalıştırdım: kurduğu eşleşmelerin %99,93 ile %100'ü yayıncının kendi bağlarıyla
-  örtüşüyor. Ama bir satıcının kendi defterinde henüz denemedim.
+  örtüşüyor.
 - [AURA](https://github.com/hilberspace-dev/portfolio/tree/main/projects/04-aura-photoreal-3d-clinic-platform):
   tarayıcıda yüz ölçümü ve cerrahi önizleme üzerine kendi araştırma prototipim. Teknik tasarımı ve
   inceleme sürecini ben yönetiyorum. Kullanıcısı ve geliri yok, bağımsız bir klinik doğrulamadan da
